@@ -1,39 +1,116 @@
-/* Start firstsection */
-body{
-    height: 100vh;
-}
-#firstsection {
-    /* padding: 180px 140px; */
+/* Start header */
+header {
     display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
     align-items: center;
+
+}
+
+/* Start nav-logo */
+.nav-logo {
+    width: 300px;
+    height: 32px;
+    gap: 10px;
+    display: flex;
+    font-family: Space Mono;
+
+}
+
+.nav-logo i {
+    color: rgba(162, 89, 255, 1);
+    font-size: 20px;
+}
+
+.nav-logo p {
+    color: #fff;
+
+}
+
+/* End nav-logo */
+/* Start nav-menu */
+.nav-menu {
+    width: 607px;
+    height: 60px;
+
+
+
+}
+
+.nav-menu-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu-ul li {
+    margin-right: 5px;
+}
+
+.nav-menu a {
+    font-family: Work Sans;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.user-sign {
+    width: 152px;
+    height: 60px;
+    border: 1px solid rgba(162, 89, 255, 1);
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
     justify-content: center;
 }
 
-#firstsection h1 {
+.menu {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 15px;
+
+}
+
+.menu i {
+    color: #fff;
+}
+
+.user-sign i {
+    margin-right: 5px;
+}
+
+/* End nav-menu */
+/* End header */
+/* Start container section */
+
+.container {
+    display: flex;
+    margin: 80px 100px;
+    justify-content: space-around;
+}
+
+.headline {
     font-family: Work Sans;
     font-size: 67px;
-    font-weight: bold;
-    line-height: 74px;
     color: #fff;
-    text-align: left;
+    font-weight: bold;
+
 }
 
-#firstsection p {
+.subhead {
     font-family: Work Sans;
     font-size: 22px;
-    font-weight: 400;
-    line-height: 35px;
     color: #fff;
-    text-align: left;
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 
-.firstsection-icon1 {
-    color: white;
-}
-
-#firstsection a {
+.button a {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 224px;
     height: 60px;
     padding: 0px 50px 0px 50px;
@@ -41,29 +118,10 @@ body{
     background-color: rgba(162, 89, 255, 1);
     color: #fff;
     font-family: Work Sans;
-}
-
-.button {
-    width: 240px;
-    height: 60px;
+    font-weight: bold;
     margin: 30px 0px;
 }
 
-.button a {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.button i {
-    color: #fff;
-
-}
-
-/* Start section */
 #section {
     display: flex;
     gap: 60px;
@@ -71,37 +129,137 @@ body{
 }
 
 #section p {
-
     font-family: Space Mono;
     font-size: 28px;
     font-weight: 700;
     color: #fff;
     text-align: left;
-
 }
 
 #section span {
-
     font-family: Work Sans;
-
     font-size: 24px;
     font-weight: 400;
     color: #fff;
     text-align: left;
-
 }
 
-/* End section */
-/* End firstsection */
-#secondsection {
+.img {
     display: flex;
-   
 }
-#secondsection img{
-    border: 1px solid rgba(43, 43, 43, 1);
+
+.space-walking {
 
     width: 510px;
-    height: 401px;
-    border-radius: 20px 20px 0px 0px;
+    height: 550px;
 
+    border-radius: 0px 0px 20px 20px;
+
+    background-color: rgba(59, 59, 59, 1);
+
+}
+
+.space-walking h1 {
+
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+    margin: 20px 20px;
+
+}
+
+
+
+.space-walking span {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 550;
+    text-align: left;
+
+}
+
+.animakid {
+    display: flex;
+    align-items: center;
+}
+
+.animakid img {
+    width: 24px;
+    height: 24px;
+    border-radius: 120px;
+    margin: 10px 20px;
+
+}
+
+/* End container section */
+/* Start trending-collection section */
+.heading {
+    width: 1046px;
+    height: 35px;
+    margin: 60px 270px;
+
+}
+
+.heading h1 {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.heading h2 {
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+    margin: 15px 0px;
+    color: #fff;
+
+}
+
+.collection-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+.collection-card img {
+    width: 450px;
+    height: 450px;
+    margin: 10px 0px;
+}
+
+.secondary-card img {
+    width: 150px;
+    height: 150px;
+}
+.secondary-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+.secondary-card a {
+    width: 150px;
+    height: 150px;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    gap: 10px;
+    color: #fff;
+    border: 1px solid rgba(162, 89, 255, 1);
+    background-color: rgba(162, 89, 255, 1);
+
+}
+.load-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

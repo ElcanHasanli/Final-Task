@@ -7,6 +7,8 @@
     <title>HTML/CSS LAST PROJECT</title>
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/phone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Work+Sans:wght@300&display=swap"
@@ -17,45 +19,114 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Space+Mono&family=Work+Sans:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <!--  Start firstpage-->
-    <div id="firstsection">
-        <div class="container">
-            
-            <h1>Discover <br>Digital Art & <br> Collect NFTs</h1>
-            <p>NFT Marketplace UI Created With Anima For <br> Figma. Collect, Buy and Sell Art From More <br>Than 20k NFT
-                Artists.
-        </p>
-        <div class="button">
-            <a href="">
-                <i class='bx bx-rocket'></i>
-                Get Started
-            </a>
-            
+    <!-- Start header -->
+    <header>
+        <!-- Start nav-logo -->
+        <div class="nav-logo">
+            <i class="fa-solid fa-store"></i>
+            <p>NFT Marketplace</p>
         </div>
-        <div id="section">
-            <div class="sale">
-                <p>240k+ </p>
-                <span>Total Sale</span>
-            </div>
-            <div class="auctions">
-                <p>100k+</p>
-                <span>Auctions</span>
-            </div>
-            <div class="artists">
-                <p>240k+</p>
-                <span>Artists</span>
-            </div>
+        <!-- End nav-logo -->
+        <!-- Start nav-menu -->
+        <div class="nav-menu">
+            <ul class="nav-menu-ul">
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Rankings</a></li>
+                <li><a href="">Connect a wallet</a></li>
+                <li><a href="" class="user-sign"><i class="fa-regular fa-user"></i>Sign Up</a></li>
+            </ul>
         </div>
-        <img src="css/img/Image Placeholder.png" alt="">
-    </div>
-    
-</div>
-    
+        <ul class="menu">
+            <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
+        </ul>
+        <!-- End nav-menu -->
 
-    </div>
+
+
+    </header>
+    <!-- End Header -->
+    <!-- Start container -->
+
+    <main>
+        <section class="container">
+            <div class="container-left">
+
+                <div class="headline">
+                    <p>Discover <br>Digital Art & <br> Collect NFTs</p>
+                </div>
+                <div class="subhead">
+                    <p>NFT Marketplace UI Created With Anima For <br> Figma. Collect, Buy and Sell Art From More <br>
+                        Than
+                        20k
+                        NFT
+                        Artists.</p>
+                </div>
+                <div class="button">
+
+                    <a href="">
+                        <i class='bx bx-rocket'></i>
+                        Get Started
+                    </a>
+                </div>
+                <div id="section">
+                    <div class="sale">
+                        <p>240k+ </p>
+                        <span>Total Sale</span>
+                    </div>
+                    <div class="auctions">
+                        <p>100k+</p>
+                        <span>Auctions</span>
+                    </div>
+                    <div class="artists">
+                        <p>240k+</p>
+                        <span>Artists</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-walking">
+                <img src="css/img/Image Placeholder.png" alt="">
+                <h1>Space Walking</h1>
+                <div class="animakid">
+                    <img src="css/img/Avatar.png" alt="">
+                    <span> Animakid</span>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section id="trending-collection">
+            <div class="heading">
+                <h1>Trending Collection</h1>
+                <h2>Checkout our weekly updated trending collection.</h2>
+            </div>
+            <div class="collection-card">
+                <div>
+                    <img src="css/img/Primary Photo Placeholder.png" alt="">
+                    
+                    <div class="secondary-card">
+                        <img src="css/img/Secondary Photo Placeholder.png" alt="">
+                        <img src="css/img/Secondary Photo Placeholder (1).png" alt="">
+                       <div class="load-more"> <a href="">1025+</a></div>
+                    </div>
+                </div>
+                
+                <div>
+                    <img src="css/img/Primary Photo Placeholder (1).png" alt="">
+                </div>
+                <div>
+                    <img src="css/img/Primary Photo Placeholder (2).png" alt="">
+                </div>
+        </section>
+    </main>
+
+
 </body>
 
 </html>

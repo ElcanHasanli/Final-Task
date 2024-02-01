@@ -1,5 +1,95 @@
-@media only screen and (max-width:375px){
-    .nav-menu{
-       width: 0px;
+@media only screen and (max-width:375px) {
+    .nav-menu {
+        display: none;
     }
+
+    .menu {
+        display: block;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .heading {
+        width: 315px;
+        height: 93px;
+        gap: 10px;
+        margin: 40px auto;
+
+    }
+
+    .third-card-mobile {
+        display: none;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .heading h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .last-card-mobile {
+        display: none;
+    }
+
+    .firstimg {
+        height: 315px;
+        width: 315px;
+        margin: 0px 55px;
+    }
+
+    .secondary-card {
+        margin: 0px 50px;
+    }
+    .info-img{
+        margin: 0px 55px;
+    }
+.view-rankings{
+    display: none;
+}
+.portfolio-headline{
+   margin: 20px;
+}
+.portfolio-subhead p{
+font-size: 15px;
+}
+.mobile-rankings {
+    border: 2px solid rgba(162, 89, 255, 1);
+    width: 230px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-rankings i{
+    width: 10px;
+    height: 10px;
+    color: rgba(162, 89, 255, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-rankings-main a {
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+
+}
+.mobile-rankings-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 }

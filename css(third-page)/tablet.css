@@ -1,0 +1,46 @@
+@media only screen and (max-width:834px) {
+    .nav-menu {
+        display: none;
+
+    }
+
+    .menu {
+        display: block;
+    }
+
+
+    .headline p {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .account-left img {
+        width: 397px;
+        height: 615px;
+    }
+
+    .creating h1 {
+        font-size: 38px;
+    }
+
+    .welcome p {
+        font-size: 16px;
+    }
+
+    .account-right {
+        margin: 50px 50px;
+    }
+
+    .footer-info {
+        display: block;
+    }
+
+    .footer {
+       padding: 40px;
+      
+
+    }
+    .line{
+        margin: 20px 0px;
+    }
+}

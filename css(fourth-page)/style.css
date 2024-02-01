@@ -1,0 +1,136 @@
+/* Start header */
+header {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Start nav-logo */
+.nav-logo {
+    width: 300px;
+    height: 32px;
+    gap: 10px;
+    display: flex;
+    font-family: Space Mono;
+}
+
+.nav-logo i {
+    color: rgba(162, 89, 255, 1);
+    font-size: 20px;
+}
+
+.nav-logo a {
+    color: #fff;
+
+}
+
+/* End nav-logo */
+/* Start nav-menu */
+.nav-menu {
+    width: 607px;
+    height: 60px;
+}
+
+.nav-menu-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu-ul li {
+    margin-right: 5px;
+}
+
+.nav-menu a {
+    font-family: Work Sans;
+    color: #fff;
+    font-weight: bold;
+}
+
+.user-sign {
+    width: 152px;
+    height: 60px;
+    border: 1px solid rgba(162, 89, 255, 1);
+    background-color: rgba(162, 89, 255, 1);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.menu i {
+    color: #fff;
+}
+
+.user-sign i {
+    margin-right: 5px;
+}
+
+/* End nav-menu */
+/* End header */
+/* Start main */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.headline {
+    margin: 0px 120px;
+}
+
+.headline h1 {
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.headline p {
+    margin: 10px 0px;
+    font-family: Work Sans;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.search {
+    margin: 30px 120px;
+    width: 1500px;
+    height: 60px;
+    padding: 12px 0px 12px 0px;
+    border-radius: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    gap: 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
+justify-content: space-between;
+}
+form{
+    margin: 20px;
+}
+form i {
+    color: #fff;
+}
+
+input {
+    background-color: rgba(43, 43, 43, 1);
+    border: none;
+    width: 1400px;
+    height: 22px;
+    gap: 20px;
+
+}
+input:focus{
+    outline: none;
+    color: #fff;
+}

@@ -1,15 +1,678 @@
-@media only screen and (max-width:834px){
-    .nav-menu{
+@media only screen and (max-width:834px) {
+    .nav-menu {
         display: none;
-        width: 0px;
+
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    main{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
+
+
+    .headline p {
+        font-size: 38px;
+        font-weight: 600;
+
     }
-    
+
+    .container-left {
+        margin: 30px 30px;
+    }
+
+    .subhead {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .button a {
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .section {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .sale p {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .sale span {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .space-walking {
+        width: 330px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 30px;
+    }
+
+    .heading {
+        margin: 40px;
+    }
+
+    .last-card-mobile {
+        display: none;
+    }
+
+    .portfolio-headline {
+        margin: 40px;
+    }
+
+    .portfolio-subhead p {
+        margin: 10px 0px;
+        width: 500px;
+    }
+
+    .portfolio1 {
+        position: relative;
+    }
+
+    .artists-info {
+
+        position: absolute;
+        display: flex;
+        align-items: center;
+
+        width: 330px;
+        height: 100px;
+
+
+
+    }
+
+    .artists-info img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .keepitreal {
+        display: flex;
+    }
+
+
+    .artists-info5 {
+        display: none;
+    }
+
+    .artists-info6 {
+        display: none;
+    }
+
+    .artists-info12 {
+        display: none;
+    }
+
+    .artists-info7 {
+        display: none;
+    }
+
+    .artists-info8 {
+        display: none;
+    }
+
+    .artists-info9 {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .brush {
+        width: 150px;
+        height: 200px;
+    }
+
+    .paint-brush {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 170px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img1 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .paint-brush-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .art {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .art p {
+        font-family: Work Sans;
+        font-size: 15px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+
+    .swatches-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .swatches {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img2 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .swatches-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+
+    .collectibles {
+
+        width: 150px;
+
+        height: 67px;
+        padding: 20px 20px 25px 20px;
+
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .collectibles p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+
+
+    .music-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .music-card {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img3 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .music-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .music {
+        margin: 0px 40px;
+        width: 150px;
+        height: 142px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .music p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+    .photo-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .photo {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img4 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .photo-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .photography {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .photography p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+    .music-card {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img3 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .music-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .music {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .music p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+    .video-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .video-card {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img5 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .video-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .video {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .video p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+    .magicwand-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .magic-card {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img6 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+
+
+    }
+
+    .magic-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .magic {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .magic p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+
+
+
+    .basket-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .basket-card {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img7 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+    }
+
+    .basket-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sport {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .sport p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+    .planet-main {
+        width: 150px;
+        height: 200px;
+    }
+
+    .planet-card {
+        margin: 70px 40px 0px;
+        border: 1px solid rgba(43, 43, 43, 1);
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .background-img8 {
+        width: 150px;
+        height: 142px;
+        border-radius: 20px 20px 0px 0px;
+        gap: 10px;
+        filter: blur(8px);
+    }
+
+    .planet-img {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .planet {
+        margin: 0px 40px;
+        width: 150px;
+        height: 67px;
+        padding: 20px 30px 25px 30px;
+        gap: 25px;
+        background-color: rgba(59, 59, 59, 1);
+        border-radius: 0px 0px 20px 20px;
+
+    }
+
+    .planet p {
+        font-family: Work Sans;
+        font-size: 22px;
+        font-weight: 600;
+        color: #FFF;
+        text-align: left;
+
+    }
+
+    .categories {
+        margin-left: 85px;
+    }
+    .first-categorie-card{
+        justify-content: start;
+        margin: 30px 40px;
+    }
+    .last-categorie-card{
+        margin: 30px 40px;
+        justify-content: start;
+    }
+    .discover{
+        margin: 140px 70px;
+    }
+    .astro-fiction{
+        display: none;
+    }
+ .nft-cards-main{
+    width: 350px;
+    height: 250px;
+ }
+ .life-edena-main{
+    width: 350px;
+    height: 250px;
+ }
+ .nft-cards{
+    margin: 15px;
+ }
 }

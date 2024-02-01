@@ -14,7 +14,6 @@ header {
     gap: 10px;
     display: flex;
     font-family: Space Mono;
-
 }
 
 .nav-logo i {
@@ -22,7 +21,7 @@ header {
     font-size: 20px;
 }
 
-.nav-logo p {
+.nav-logo a {
     color: #fff;
 
 }
@@ -32,9 +31,6 @@ header {
 .nav-menu {
     width: 607px;
     height: 60px;
-
-
-
 }
 
 .nav-menu-ul {
@@ -51,7 +47,6 @@ header {
     font-family: Work Sans;
     color: #fff;
     font-weight: bold;
-
 }
 
 .user-sign {
@@ -69,9 +64,7 @@ header {
     display: none;
     justify-content: space-between;
     align-items: center;
-
     font-size: 15px;
-
 }
 
 .menu i {
@@ -149,14 +142,10 @@ header {
 }
 
 .space-walking {
-
     width: 510px;
     height: 550px;
-
-    border-radius: 0px 0px 20px 20px;
-
+    border-radius: 20px;
     background-color: rgba(59, 59, 59, 1);
-
 }
 
 .space-walking h1 {
@@ -167,7 +156,6 @@ header {
     color: #fff;
     text-align: left;
     margin: 20px 20px;
-
 }
 
 
@@ -178,7 +166,6 @@ header {
     font-size: 16px;
     font-weight: 550;
     text-align: left;
-
 }
 
 .animakid {
@@ -191,16 +178,22 @@ header {
     height: 24px;
     border-radius: 120px;
     margin: 10px 20px;
-
 }
 
 /* End container section */
 /* Start trending-collection section */
+#collection-card {
+    display: flex;
+    width: 1050px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
 .heading {
     width: 1046px;
     height: 35px;
     margin: 60px 270px;
-
 }
 
 .heading h1 {
@@ -209,7 +202,6 @@ header {
     font-size: 42px;
     font-weight: 600;
     text-align: left;
-
 }
 
 .heading h2 {
@@ -219,47 +211,1923 @@ header {
     text-align: left;
     margin: 15px 0px;
     color: #fff;
-
 }
 
 .collection-card {
     display: flex;
     align-items: center;
     justify-content: center;
+
     gap: 30px;
-
-
 }
 
-.collection-card img {
-    width: 450px;
-    height: 450px;
-    margin: 10px 0px;
+.firstcardimg {
+    width: 100%;
+}
+
+.firstcard {
+    display: flex;
+    margin: 60px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.thirdcardimg {
+    width: 100%;
+}
+
+.lasctcardimg {
+    width: 100%;
+}
+
+.firstimg {
+    width: 100%;
+    height: 330px;
+}
+
+.secondary-card {
+    display: flex;
+    margin: 15px 0px;
+    gap: 15px;
 }
 
 .secondary-card img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
-.secondary-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
-}
-.secondary-card a {
-    width: 150px;
-    height: 150px;
-    padding: 32px 15px 32px 15px;
-    border-radius: 20px;
-    gap: 10px;
-    color: #fff;
-    border: 1px solid rgba(162, 89, 255, 1);
-    background-color: rgba(162, 89, 255, 1);
 
-}
-.load-more{
+.load-more {
+    font-family: Space Mono;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgba(162, 89, 255, 1);
+    width: 100px;
+    height: 100px;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(162, 89, 255, 1);
+
 }
+
+.load-more a {
+    color: #fff;
+}
+
+.dsgn-main {
+    display: flex;
+    align-items: center;
+}
+
+.info-img h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.info-img span {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+.third-card-mobile {
+    display: flex;
+    width: 330px;
+    margin: 60px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.firstimg {
+    width: 100%;
+    height: 330px;
+}
+
+.third-card {
+    display: flex;
+    margin: 15px 0px;
+    gap: 15px;
+}
+
+.third-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.load {
+    font-family: Space Mono;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(162, 89, 255, 1);
+    width: 100px;
+    height: 100px;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(162, 89, 255, 1);
+
+}
+
+.load a {
+    color: #fff;
+}
+
+.magic-main {
+    display: flex;
+    align-items: center;
+}
+
+.magic-main img {
+    width: 24px;
+    height: 24px;
+    border-radius: 120px;
+
+}
+
+.info-img2 h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.info-img2 span {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+
+
+
+
+
+.last-card-mobile {
+    display: flex;
+    width: 330px;
+    margin: 60px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.firstimg {
+    width: 100%;
+    height: 330px;
+}
+
+.last-card {
+    display: flex;
+    margin: 15px 0px;
+    gap: 15px;
+}
+
+.last-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.more {
+    font-family: Space Mono;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(162, 89, 255, 1);
+    width: 100px;
+    height: 100px;
+    padding: 32px 15px 32px 15px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(162, 89, 255, 1);
+
+}
+
+.more a {
+    color: #fff;
+}
+
+.disco-main {
+    display: flex;
+    align-items: center;
+}
+
+.info-img3 h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.info-img3 span {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+#collection-info-main-mobile {
+    display: none;
+}
+
+/* End trending-collection-main section */
+/* Start rated-artist section */
+
+.portfolio-headline {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+.portfolio-headline h1 {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.portfolio-headline p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+
+}
+
+.view-rankings {
+    border: 2px solid rgba(162, 89, 255, 1);
+    width: 230px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-rankings i {
+    width: 10px;
+    height: 10px;
+    color: rgba(162, 89, 255, 1);
+}
+
+.view-rankings a {
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+.portfolio {
+    margin: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin: 30px 0px;
+
+}
+
+.artists-info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+.artists-info1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info1 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info1 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+
+.artists-info2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info2 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info2 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+
+.artists-info3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info3 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info3 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+
+
+.artists-info4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info4 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info4 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+.artists-info5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info5 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info5 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+.artists-info6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info6 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info6 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+
+
+.artists-info7 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info7 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info7 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+.artists-info8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info8 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info8 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+
+
+.artists-info9 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artists-info9 span {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(43, 43, 43, 1);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(133, 133, 132, 1);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.artists-info9 h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+
+}
+
+.keepitreal h1 {
+    color: #fff;
+    margin: 20px 0px;
+}
+
+.value {
+    color: #fff;
+    font-family: Space Mono;
+
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0px;
+}
+
+.total-sales {
+
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: rgba(133, 133, 132, 1);
+
+}
+
+.artists-info img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info1 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info2 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info3 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info4 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info5 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info6 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info7 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info8 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.artists-info9 img {
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.portfolio2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.portfolio3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.artists-info {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info1 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info2 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info3 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info4 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info5 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info6 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info7 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info8 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.artists-info9 {
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: rgba(59, 59, 59, 1);
+}
+
+.collection-info-mobile {
+    display: none;
+}
+
+/* Start Browse-Categories  section*/
+.categories h1 {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: left;
+}
+
+.categories {
+    width: 1050px;
+    margin-left: 225px;
+
+}
+
+
+
+.first-categorie-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.last-categorie-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.paint-brush {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img1 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.paint-brush-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.art {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.art p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+
+
+
+.swatches {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img2 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.swatches-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.collectibles {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.collectibles p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+
+
+
+
+.music-card {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img3 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.music-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.music {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.music p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+
+.photo {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img4 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.photo-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.photography {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.photography p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+.music-card {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img3 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.music-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.music {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.music p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+
+.video-card {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img5 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.video-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.video {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.video p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+
+.magic-card {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img6 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+
+
+}
+
+.magic-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.magic {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.magic p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+
+
+
+
+.basket-card {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img7 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+}
+
+.basket-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+}
+
+.sport {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.sport p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+.planet-card {
+    margin: 70px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-img8 {
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    filter: blur(8px);
+}
+
+.planet-img {
+    position: absolute;
+    top: 90px;
+    right: 80px;
+    width: 100px;
+    height: 100px;
+}
+
+.planet {
+    margin: 0px 40px;
+    width: 270px;
+    height: 70px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.planet p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+    text-align: left;
+
+}
+
+/* End Browse Categories section */
+
+
+/* Start discover section */
+.discover {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 250px;
+}
+
+.discover h1 {
+    color: #fff;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.discover p {
+    margin: 10px 0px;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+
+.see-all {
+    border: 2px solid rgba(162, 89, 255, 1);
+    width: 230px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-all i {
+    width: 10px;
+    height: 10px;
+    color: rgba(162, 89, 255, 1);
+}
+
+.see-all a {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nft-info {
+    margin: 20px 40px;
+    width: 330px;
+    height: 173px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.moondancer {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.galaxy h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.moon p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.moon img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.additional-info span {
+    color: rgba(133, 133, 132, 1);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.additional {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-info p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.distant-galaxy {
+    margin: 0px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+}
+
+
+.nft-info1 {
+    margin: 20px 40px;
+    width: 330px;
+    height: 173px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.nebulakid {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.edena h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.nebulakid p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.nebulakid img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.additional-info1 span {
+    color: rgba(133, 133, 132, 1);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.additional1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-info1 p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.life-edena {
+    margin: 0px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+}
+
+
+.nft-cards {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
+    gap: 30px;
+}
+
+
+
+.nft-info2 {
+    margin-top: -5px;
+    width: 330px;
+    height: 173px;
+    padding: 20px 30px 25px 30px;
+    gap: 25px;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.space1 {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.spaceone h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.space1 p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.space1 img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.additional-info2 span {
+    color: rgba(133, 133, 132, 1);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.additional2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additional-info2 p {
+    color: #FFF;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.astro-fiction {
+    margin: 0px 40px 0px;
+    border: 1px solid rgba(43, 43, 43, 1);
+    width: 270px;
+    height: 270px;
+    border-radius: 20px 20px 0px 0px;
+    gap: 10px;
+    background-position: center;
+}
+
+.mobile-rankings-main {
+    display: none;
+}
+
+/* End discover section */
+/* Start magic-mushroom section */
+/* .mushroom {
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+    display: flex;
+
+}
+
+.frame {
+    height: 100vh;
+    background-image: url(../css/img/WhatsApp\ Image\ 2024-01-31\ at\ 23.34.52.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 720px;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+}
+
+button {
+    border: 1px solid rgba(59, 59, 59, 1);
+    background-color: rgba(59, 59, 59, 1);
+    width: 151px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    gap: 12px;
+
+} */
+/* Start how-it-works section */
+.headline-works h1 {
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFF;
+
+}
+
+.headline-works p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.headline-works {
+    margin-left: 240px;
+}
+
+.works-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    gap: 200px;
+}
+
+.works-info {
+    border: 1px solid rgba(59, 59, 59, 1);
+    background-color: rgba(59, 59, 59, 1);
+    width: 330px;
+    height: 439px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 20px;
+    gap: 20px;
+
+}
+
+
+
+.work-detail h1 {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFF;
+    margin: 10px;
+}
+
+.work-detail p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+    margin: 10px;
+}
+
+/* End how-it-works section */
+/* Start subscribe-widget section */
+.widget-main {
+    display: flex;
+    background-color: rgba(59, 59, 59, 1);
+    width: 1400px;
+    height: 430px;
+    padding: 60px;
+    border-radius: 20px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.widget-left img {
+    width: 450px;
+    height: 340px;
+    border-radius: 20px;
+
+}
+
+.widget-info h1 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 42px;
+    font-weight: 600;
+
+}
+
+.widget-info p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 40px 0px;
+}
+
+.subscribe-info {
+
+    border-radius: 20px;
+    gap: 12px;
+
+}
+
+.sub-info {
+    width: 211px;
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+
+    color: #FFF;
+    font-family: Work Sans;
+    border-radius: 20px;
+    background-color: rgba(162, 89, 255, 1);
+    border: 1px solid rgba(162, 89, 255, 1);
+    text-align: center;
+    display: flex;
+    margin-left: 50px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    left: 163px;
+}
+
+.email-info {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: flex;
+    width: 425px;
+    height: 60px;
+    position: relative;
+}
+
+.sub-info a {
+    color: #FFF;
+
+
+}
+
+.sub-info i {
+    color: #FFF;
+}
+
+.email-sub {
+    margin-left: 40px;
+    border: none;
+    color: rgba(43, 43, 43, 1);
+}
+
+/* End subscribe-widget section  */
+/* Start footer */
+footer {
+    margin-top: 100px;
+    background-color: rgba(59, 59, 59, 1);
+    width: 1, 280px;
+    height: 334px;
+    padding: 40px 195px 40px 195px;
+    gap: 30px;
+
+}
+
+.nft-anima {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(204, 204, 204, 1);
+    margin: 10px 0px;
+}
+
+.community {
+    margin: 20px 0px;
+}
+
+.community h1 {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(204, 204, 204, 1);
+}
+
+.community-icons i {
+    margin: 20px 0px;
+    color: rgba(133, 133, 132, 1);
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+
+
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.explore-footer h1 {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.pages p {
+    margin: 20px 0px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.join {
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.form-info {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-info p {
+    margin: 20px 0px;
+    color: rgba(204, 204, 204, 1);
+}
+
+.line {
+    width: 1350px;
+
+
+    margin: auto;
+    border: 1px solid rgba(133, 133, 132, 1);
+
+}
+
+.footer-detail {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(204, 204, 204, 1);
+    margin: 30px 90px;
+}
+
+/* End footer */

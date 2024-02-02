@@ -38,6 +38,10 @@
         margin-right: 30px;
     }
 
+    .button {
+        margin: 0px -21px;
+    }
+
     .email-info {
         display: flex;
         flex-direction: column;

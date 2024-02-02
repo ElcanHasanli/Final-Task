@@ -1,0 +1,63 @@
+@media only screen and (max-width:375px) {
+    .nav-menu {
+        display: none;
+
+    }
+
+    .menu {
+        display: block;
+    }
+
+    main {
+        align-items: center;
+        justify-content: center;
+        margin: 0px -395px;
+    }
+
+    .main-nft {
+        display: none;
+    }
+
+    .solding {
+        display: none;
+
+    }
+
+    .change-phone {
+        display: none;
+    }
+
+    .channel {
+        display: none;
+    }
+
+    .solding1 {
+        padding: 0px 30px;
+    }
+
+    .rank-items {
+        width: 1011px;
+    }
+
+    .table-header {
+        width: 367px;
+    }
+
+    .rank-items {
+        width: 367px;
+    }
+
+    .change {
+        padding: 3px 100px;
+    }
+
+    .volume {
+        padding: 0px 49px;
+    }
+
+    .artist-card p {
+        width: 75px;
+    }
+
+   
+}

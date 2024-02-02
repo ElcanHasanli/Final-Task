@@ -38,4 +38,91 @@
         display: flex;
         flex-direction: column;
     }
+    .email-info1 input {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-tablet {
+        width: 300px;
+        height: 46px;
+        padding: 0px 50px 0px 50px;
+        border-radius: 20px;
+        gap: 12px;
+        background-color: rgba(162, 89, 255, 1);
+        margin: 10px 0px;
+    }
+
+    .info-tablet i {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .info-tablet a {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4vh;
+    }
+    .sub-info2 {
+        width: 211px;
+        height: 60px;
+        padding: 0px 50px 0px 50px;
+        border-radius: 20px;
+    
+        color: #FFF;
+        font-family: Work Sans;
+        border-radius: 20px;
+        background-color: rgba(162, 89, 255, 1);
+        border: 1px solid rgba(162, 89, 255, 1);
+        text-align: center;
+        display: flex;
+        margin-left: 50px;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        left: 163px;
+    }
+    
+    .email-info2 {
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 20px;
+        display: flex;
+        width: 425px;
+        height: 60px;
+        position: relative;
+    }
+    
+    .sub-info2 a {
+        color: #FFF;
+    
+    
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .sub-info2 i {
+        color: #FFF;
+    }
+    
+    .email-sub2 {
+        margin-left: 40px;
+        border: none;
+        color: rgba(43, 43, 43, 1);
+    }
+    .subscribe-info{
+        display: none;
+    }
+    .subscribe-info2{
+        display: flex;
+    }
 }

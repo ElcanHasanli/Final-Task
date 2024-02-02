@@ -74,33 +74,161 @@
         width: 500px;
     }
 
+
+
+
+
+    .tablet-info {
+        display: flex;
+
+
+        align-items: center;
+    }
+
+    .artists-info1 {
+        display: flex;
+    }
+
+    .artists-info2 {
+        display: flex;
+    }
+
+    .artists-info3 {
+        display: flex;
+    }
+
+    .artists-info4 {
+        display: flex;
+    }
+
     .portfolio1 {
-        position: relative;
+        width: 1330px;
+        height: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .thirdsecetion {
+        display: flex;
+
     }
 
     .artists-info {
-
-        position: absolute;
-        display: flex;
-        align-items: center;
-
-        width: 330px;
+        width: 300px;
         height: 100px;
-
-
+        position: relative;
 
     }
+
+    .artists-info1 {
+        width: 300px;
+        height: 100px;
+        position: relative;
+    }
+
+    .artists-info2 {
+        width: 300px;
+        height: 100px;
+        position: relative;
+    }
+
+    .artists-info3 {
+        width: 300px;
+        height: 100px;
+        position: relative;
+    }
+
+    .artists-info4 {
+        width: 300px;
+        height: 100px;
+        position: relative;
+    }
+.container1{
+    display: none;
+}
+    .firstsection {
+        display: flex;
+    }
+
+    .secondsection {
+        display: flex;
+    }
+    .thirdsection{
+        flex-wrap: wrap;
+    }
+
+    .portfolio2 {
+
+        width: 1330px;
+        height: 10px;
+        padding: 20px;
+        border-radius: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .art-tablet {
+        position: absolute;
+        margin-right: 180px;
+    }
+
+    .art-tablet2 {
+        position: absolute;
+        margin-right: 180px;
+    }
+
+    .art-tablet3 {
+        position: absolute;
+        margin-right: 180px;
+    }
+
+    .art-tablet4 {
+        position: absolute;
+        margin-right: 180px;
+    }
+
+    .art-tablet5 {
+        position: absolute;
+        margin-right: 180px;
+    }
+
+    .art-tablet6 {
+        position: absolute;
+        margin-right: 180px;
+    }
+
 
     .artists-info img {
-        width: 40px;
-        height: 40px;
-
+        width: 60px;
+        height: 60px;
     }
 
-    .keepitreal {
-        display: flex;
+    .artists-info1 img {
+        width: 60px;
+        height: 60px;
     }
 
+    .artists-info2 img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .artists-info3 img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .artists-info4 img {
+        width: 60px;
+        height: 60px;
+    }
 
     .artists-info5 {
         display: none;
@@ -126,7 +254,13 @@
         display: none;
     }
 
+    #rated-artists {
+        display: none;
+    }
 
+    .portfolio-tablet {
+        display: block;
+    }
 
 
 
@@ -650,29 +784,182 @@
     .categories {
         margin-left: 85px;
     }
-    .first-categorie-card{
+
+    .first-categorie-card {
         justify-content: start;
         margin: 30px 40px;
     }
-    .last-categorie-card{
+
+    .last-categorie-card {
         margin: 30px 40px;
         justify-content: start;
     }
-    .discover{
+
+    .discover {
         margin: 140px 70px;
     }
-    .astro-fiction{
+
+    .astro-fiction {
         display: none;
     }
- .nft-cards-main{
-    width: 350px;
-    height: 250px;
- }
- .life-edena-main{
-    width: 350px;
-    height: 250px;
- }
- .nft-cards{
-    margin: 15px;
- }
+
+    .nft-cards-main {
+        width: 350px;
+        height: 250px;
+    }
+
+    .life-edena-main {
+        width: 350px;
+        height: 250px;
+    }
+
+    .nft-cards {
+        margin: 15px;
+        height: 575px;
+    }
+
+    .clock {
+        margin: 475px 0px;
+    }
+
+    .headline-works {
+        margin: 20px 20px;
+    }
+
+    .headline-works h1 {
+        margin: 20px 20px;
+    }
+
+    .headline-works p {
+        margin: 20px 20px;
+    }
+
+    .works-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .widget-left img {
+        width: 300px;
+        height: 280px;
+        border-radius: 20px;
+        margin-left: 220px;
+
+    }
+
+    .subscribe-info {
+        display: none;
+    }
+
+    .subscribe-info-tablet {
+        display: block;
+    }
+
+    .widget-main {
+        width: 800px;
+        margin: 0px 15px;
+    }
+
+    .widget-right {
+        margin-right: 200px;
+    }
+
+    .email-info1 {
+        width: 300px;
+        height: 46px;
+        padding: 16px 20px 16px 20px;
+        border-radius: 20px;
+        border: 1px solid rgba(133, 133, 132, 1);
+        background-color: rgba(255, 255, 255, 1);
+        gap: 12px;
+
+    }
+
+    input:focus {
+        outline: none;
+
+    }
+
+    .email-info1 input {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-tablet {
+        width: 300px;
+        height: 46px;
+        padding: 0px 50px 0px 50px;
+        border-radius: 20px;
+        gap: 12px;
+        background-color: rgba(162, 89, 255, 1);
+        margin: 10px 0px;
+    }
+
+    .info-tablet i {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .info-tablet a {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 4vh;
+    }
+    .sub-info2 {
+        width: 211px;
+        height: 60px;
+        padding: 0px 50px 0px 50px;
+        border-radius: 20px;
+    
+        color: #FFF;
+        font-family: Work Sans;
+        border-radius: 20px;
+        background-color: rgba(162, 89, 255, 1);
+        border: 1px solid rgba(162, 89, 255, 1);
+        text-align: center;
+        display: flex;
+        margin-left: 50px;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        left: 163px;
+    }
+    
+    .email-info2 {
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid rgba(255, 255, 255, 1);
+        border-radius: 20px;
+        display: flex;
+        width: 425px;
+        height: 60px;
+        position: relative;
+    }
+    
+    .sub-info2 a {
+        color: #FFF;
+    
+    
+    }
+    
+    .sub-info2 i {
+        color: #FFF;
+    }
+    
+    .email-sub2 {
+        margin-left: 40px;
+        border: none;
+        color: rgba(43, 43, 43, 1);
+    }
+
 }

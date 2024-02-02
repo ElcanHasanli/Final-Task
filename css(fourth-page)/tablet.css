@@ -1,0 +1,31 @@
+@media only screen and (max-width:834px) {
+    .nav-menu {
+        display: none;
+
+    }
+
+    .menu {
+        display: block;
+    }
+
+
+    .headline p {
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    .collections{
+        margin: 0px 120px;
+
+    }
+    .nft-cards-main{
+        flex-wrap: wrap;
+    }
+    .astro-fiction{
+        display: none;
+    }
+    .nft-cards{
+        margin-left: -2px;
+    }
+    
+}

@@ -24,18 +24,26 @@
         height: 232px;
 
     }
-    .create-account{
-        display: block; 
+
+    .create-account {
+        display: block;
     }
-    .welcome p{
+
+    .welcome p {
         font-size: 16px;
         font-weight: normal;
     }
-    .typeform{
-    margin-right: 30px;
+
+    .typeform {
+        margin-right: 30px;
     }
-    .email-info{
+
+    .email-info {
         display: flex;
+        flex-direction: column;
+    }
+
+    .footer-info {
         flex-direction: column;
     }
 }

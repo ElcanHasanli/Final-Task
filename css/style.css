@@ -81,7 +81,7 @@ header {
 
 .container {
     display: flex;
-    margin: 80px 100px;
+    margin: 80px -7px;
     justify-content: space-around;
 }
 
@@ -182,18 +182,18 @@ header {
 
 /* End container section */
 /* Start trending-collection section */
-#collection-card {
+.collection-card {
     display: flex;
-    width: 1050px;
+    
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 171px;
 }
 
 .heading {
     width: 1046px;
     height: 35px;
-    margin: 60px 270px;
+    margin: 60px 225px;
 }
 
 .heading h1 {
@@ -454,7 +454,9 @@ header {
 
 /* End trending-collection-main section */
 /* Start rated-artist section */
-
+.portfolio-tablet{
+    display: none;
+}
 .portfolio-headline {
     display: flex;
     justify-content: space-between;
@@ -528,6 +530,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .artists-info span {
@@ -1852,14 +1855,32 @@ header {
 
 /* End discover section */
 /* Start magic-mushroom section */
-/* .mushroom {
+#magic-mushroom {
     width: 100%;
-    background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+}
+
+.mushroom {
+    width: 100%;
+
     display: flex;
 
 }
 
+.frame img {
+    width: 24px;
+    height: 24px;
+}
+
+.mushroom-main {
+    margin: 400px 130px;
+
+}
+
 .frame {
+
+    width: 100%;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
     background-image: url(../css/img/WhatsApp\ Image\ 2024-01-31\ at\ 23.34.52.jpeg);
     background-repeat: no-repeat;
@@ -1870,16 +1891,111 @@ header {
     display: flex;
 }
 
-button {
-    border: 1px solid rgba(59, 59, 59, 1);
-    background-color: rgba(59, 59, 59, 1);
+.shroomie {
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Work Sans;
     width: 151px;
     height: 44px;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
-    gap: 12px;
+    background-color: rgba(59, 59, 59, 1);
+    color: #fff;
+}
 
-} */
+.magic-info {
+    margin: 20px 0px;
+}
+
+.magic-info p {
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.magic-footer a {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.magic-footer {
+    color: rgba(43, 43, 43, 1);
+    width: 198px;
+    height: 60px;
+    padding: 22px 50px 22px 50px;
+    border-radius: 20px;
+    gap: 12px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.magic-footer i {
+    color: rgba(162, 89, 255, 1);
+}
+
+.artist-card {
+    background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+    width: 100%;
+    display: flex;
+
+
+}
+
+.clock-info p {
+    font-family: Space Mono;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+
+.clock-details {
+    display: flex;
+    width: 235px;
+    height: 61px;
+    gap: 10px;
+
+}
+
+.hours {
+    width: 53px;
+    height: 61px;
+    gap: 5px;
+
+}
+.hours p{
+
+font-family: Space Mono;
+font-size: 38px;
+font-weight: 700;
+color: #FFF;
+}
+.hours span{
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.clock{
+    background-color: rgba(59, 59, 59, 0.5);
+    width: 295px;
+height: 144px;
+padding: 30px;
+border-radius: 20px;
+gap: 10px;
+margin: 465px 970px;
+
+}
+.text{
+font-family: Space Mono;
+font-size: 28px;
+font-weight: 700;
+color: rgba(255, 255, 255, 1)   ;
+}
 /* Start how-it-works section */
 .headline-works h1 {
     font-family: Work Sans;
@@ -1897,7 +2013,7 @@ button {
 }
 
 .headline-works {
-    margin-left: 240px;
+    margin-left: 266px;
 }
 
 .works-row {
@@ -1984,7 +2100,9 @@ button {
     gap: 12px;
 
 }
-
+.subscribe-info-tablet{
+    display: none;
+}
 .sub-info {
     width: 211px;
     height: 60px;
@@ -2005,7 +2123,9 @@ button {
     font-weight: bold;
     left: 163px;
 }
-
+.container1{
+    display: none;
+}
 .email-info {
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -2129,5 +2249,6 @@ footer {
     color: rgba(204, 204, 204, 1);
     margin: 30px 90px;
 }
+
 
 /* End footer */

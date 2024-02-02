@@ -43,4 +43,7 @@
     .line{
         margin: 20px 0px;
     }
+    .subscribe-info2{
+        display: none;
+    }
 }

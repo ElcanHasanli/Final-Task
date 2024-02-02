@@ -46,50 +46,271 @@
     .secondary-card {
         margin: 0px 50px;
     }
-    .info-img{
+
+    .info-img {
         margin: 0px 55px;
     }
-.view-rankings{
-    display: none;
-}
-.portfolio-headline{
-   margin: 20px;
-}
-.portfolio-subhead p{
-font-size: 15px;
-}
-.mobile-rankings {
-    border: 2px solid rgba(162, 89, 255, 1);
-    width: 230px;
-    height: 60px;
-    padding: 0px 50px 0px 50px;
-    border-radius: 20px;
-    margin: 10px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.mobile-rankings i{
-    width: 10px;
-    height: 10px;
-    color: rgba(162, 89, 255, 1);
-    display: flex;
-    justify-content: space-between;
-}
+    .view-rankings {
+        display: none;
+    }
 
-.mobile-rankings-main a {
+    .portfolio-headline {
+        margin: 20px;
+    }
 
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
+    .portfolio-subhead p {
+        font-size: 15px;
+    }
 
-}
-.mobile-rankings-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .mobile-rankings {
+        border: 2px solid rgba(162, 89, 255, 1);
+        width: 230px;
+        height: 60px;
+        padding: 0px 50px 0px 50px;
+        border-radius: 20px;
+        margin: 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-rankings i {
+        width: 10px;
+        height: 10px;
+        color: rgba(162, 89, 255, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .mobile-rankings-main a {
+
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+
+    }
+
+    .mobile-rankings-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio1 {
+        display: none;
+    }
+
+    .portfolio2 {
+        display: none;
+    }
+
+    .container1 {
+        display: block;
+    }
+
+    .subhead p {
+        font-size: 13px;
+    }
+
+    .headline p {
+        font-size: 20px;
+    }
+
+    .space-walking {
+        margin: 20px 0px;
+    }
+
+    .button a {
+        margin: 20px 50px;
+    }
+
+    #section {
+        gap: 31px;
+    }
+
+    .categories {
+        margin: 20px;
+    }
+
+    .categorie1 {
+        display: flex;
+    }
+
+    .categorie2 {
+        display: flex;
+    }
+
+    .first-categorie-card {
+        display: flex;
+    }
+
+    .last-categore-card {
+        display: flex;
+    }
+
+    .see-all {
+        display: none;
+    }
+
+    .astro-fiction {
+        margin: 20px;
+        display: block;
+    }
+
+    .nft-cards {
+        height: 1900px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #magic-mushroom {
+        width: 100%;
+    }
+
+    .mushroom {
+        width: 100%;
+
+        display: flex;
+
+    }
+
+    .frame img {
+        width: 375px;
+        height: 590px;
+        padding: 120px 195px 40px 195px;
+    }
+
+    .mushroom-main {
+        margin: 400px 130px;
+
+    }
+
+    .frame {
+
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        background-image: url(../css/img/WhatsApp\ Image\ 2024-01-31\ at\ 23.34.52.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 720px;
+        object-fit: cover;
+        background-size: cover;
+        display: flex;
+    }
+
+    .shroomie p{
+
+        gap: 12px;
+        font-family: Work Sans;
+    
+     
+        border-radius: 20px;
+        background-color: rgba(59, 59, 59, 1);
+        color: #fff;
+    }
+
+    .magic-info {
+        margin: 20px 0px;
+    }
+
+    .magic-info p {
+        font-family: Work Sans;
+        font-size: 51px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .magic-footer a {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .magic-footer {
+        color: rgba(43, 43, 43, 1);
+        width: 198px;
+        height: 60px;
+        padding: 22px 50px 22px 50px;
+        border-radius: 20px;
+        gap: 12px;
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .magic-footer i {
+        color: rgba(162, 89, 255, 1);
+    }
+
+    .artist-card {
+        background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%);
+        width: 100%;
+       
+
+
+    }
+
+    .clock-info p {
+        font-family: Space Mono;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .clock-details {
+        display: flex;
+        width: 235px;
+        height: 61px;
+        gap: 10px;
+
+    }
+
+    .hours {
+        width: 53px;
+        height: 61px;
+        gap: 5px;
+
+    }
+
+    .hours p {
+
+        font-family: Space Mono;
+        font-size: 38px;
+        font-weight: 700;
+        color: #FFF;
+    }
+
+    .hours span {
+        font-family: Space Mono;
+        font-size: 12px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 1);
+
+
+    }
+
+    .clock {
+        background-color: rgba(59, 59, 59, 0.5);
+        width: 295px;
+        height: 144px;
+        padding: 30px;
+        border-radius: 20px;
+        gap: 10px;
+        margin: 465px -222px;
+
+    }
+
+    .text {
+        font-family: Space Mono;
+        font-size: 28px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 1);
+    }
+   
+ 
+        
+
 
 }

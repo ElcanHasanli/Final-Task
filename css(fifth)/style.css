@@ -78,88 +78,238 @@ header {
 /* End nav-menu */
 /* End header */
 /* Start main */
-.create-account {
-    display: flex;
-}
-
-.account-left img {
-    width: 610px;
-    height: 691px;
-}
-
-.creating h1 {
+.subhead h1 {
+    margin: 0px 100px;
     font-family: Work Sans;
-    font-size: 71px;
+    font-size: 41px;
     font-weight: 600;
     color: #fff;
 }
 
-.welcome {
-    margin: 20px 0px;
-}
-
-.welcome p {
-    color: #fff;
+.subhead p {
+    margin: 20px 100px;
     font-family: Work Sans;
-    font-size: 32px;
+    font-size: 17px;
     font-weight: 400;
-}
-
-.form-action {
-    width: 330px;
-    height: 46px;
-    padding: 16px 20px 16px 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(133, 133, 132, 1);
-    background-color: rgba(255, 255, 255, 1);
-    display: flex;
-    align-items: center;
-    margin: 20px 0px;
-}
-
-.text-input {
-    border: none;
-}
-
-.account-right {
-    margin: 130px 350px;
-}
-
-form i {
-    color: rgba(189, 189, 189, 1);
+    color: rgba(255, 255, 255, 1);
 
 }
 
-.text-input::placeholder {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 400;
-    border: 1px solid rgba(255, 255, 255, 1);
+.frame {
+    width: 1280px;
+    height: 60px;
+    padding: 0px 10px 0px 10px;
+    gap: 10px;
 }
 
-.button {
-    width: 330px;
-    height: 46px;
-    padding: 0px 50px 0px 50px;
-    border-radius: 20px;
-    gap: 12px;
-    background-color: rgba(162, 89, 255, 1);
-
-}
-
-.button a {
-    font-family: Work Sans;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
+.tabs {
+    width: 1050px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4.5vh;
+    margin: 100px 400px;
+}
+
+.tab1 {
+    width: 262px;
+    height: 60px;
+    padding: 0px 30px 0px 30px;
+    border: 0px 0px 2px 0px;
+    gap: 16px;
 
 }
 
-/* End main */
+.tab1 p {
+
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.tab2 {
+    width: 262px;
+    height: 60px;
+    padding: 0px 30px 0px 30px;
+    border: 0px 0px 2px 0px;
+    gap: 16px;
+
+}
+
+.tab2 p {
+
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(133, 133, 132, 1);
+}
+
+.table-header {
+    width: 1050px;
+    height: 46px;
+    padding: 12px 0px 12px 0px;
+    border-radius: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    gap: 10px;
+    margin: 20px 400px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artist {
+    width: 100px;
+    height: 22px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.artist p {
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(133, 133, 132, 1);
+}
+
+.change {
+    padding: 0px 189px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.stats p {
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(133, 133, 132, 1);
+
+}
+
+.artist-info span {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    gap: 10px;
+    background-color: rgba(43, 43, 43, 1);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(133, 133, 132, 1);
+
+}
+
+.artist-card img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.rank-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 1050px;
+    height: 84px;
+    border-radius: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    background-color: rgba(59, 59, 59, 1);
+    margin: 20px 400px;
+}
+
+.artist-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+
+.stat-info {
+    display: flex;
+}
+
+.artist-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.artist-card p {
+    width: 300px;
+    height: 31px;
+    gap: 5px;
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.channel {
+    width: 160px;
+    height: 22px;
+    gap: 10px;
+
+}
+
+.channel p {
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 172, 79, 1);
+
+}
+
+.solding p {
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+
+
+}
+
+.solding {
+    margin-left: 10px;
+}
+
+.solding1 p {
+
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+
+
+}
+
+.solding1 {
+    padding: 0px 160px;
+}
+
 /* Start footer */
 footer {
     background-color: rgba(59, 59, 59, 1);
@@ -309,7 +459,5 @@ footer {
     border: none;
     color: rgba(43, 43, 43, 1);
 }
-.subscribe-info2{
-    display: none;
-}
+
 /* End footer */
